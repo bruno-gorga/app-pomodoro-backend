@@ -24,31 +24,31 @@
 
 ## 1. Visão Geral do Produto
 
-Este projeto consiste no desenvolvimento de um aplicativo da técnica Pomodoro, uma metodologia de gerenciamento de tempo que utiliza intervalos de trabalho focado de 25 minutos, chamados "pomodoros", seguidos por breves pausas. [cite: 12] O objetivo principal é combater o impacto negativo do uso excessivo da internet e das redes sociais na capacidade de concentração. [cite: 6] Muitos usuários enfrentam dificuldades em manter o foco devido a constantes distrações e sobrecarga de informações. [cite: 7]
+Este projeto consiste no desenvolvimento de um aplicativo da técnica Pomodoro, uma metodologia de gerenciamento de tempo que utiliza intervalos de trabalho focado de 25 minutos, chamados "pomodoros", seguidos por breves pausas. O objetivo principal é combater o impacto negativo do uso excessivo da internet e das redes sociais na capacidade de concentração.  Muitos usuários enfrentam dificuldades em manter o foco devido a constantes distrações e sobrecarga de informações. 
 
-O aplicativo Pomodoro foi concebido para transformar a clássica técnica em uma experiência adaptativa e orientada por dados. [cite: 12] Utilizando Inteligência Artificial (IA) para analisar padrões de uso e sugerir ajustes inteligentes[cite: 13], o aplicativo visa otimizar a produtividade de forma personalizada, indo além de um simples cronômetro. [cite: 13, 18] A solução é pensada para estudantes, profissionais e qualquer pessoa que busque reduzir distrações e melhorar a organização diária. [cite: 15]
+O aplicativo Pomodoro foi concebido para transformar a clássica técnica em uma experiência adaptativa e orientada por dados.  Utilizando Inteligência Artificial (IA) para analisar padrões de uso e sugerir ajustes inteligentes, o aplicativo visa otimizar a produtividade de forma personalizada, indo além de um simples cronômetro.  A solução é pensada para estudantes, profissionais e qualquer pessoa que busque reduzir distrações e melhorar a organização diária.
 
 **Valor Agregado:**
-* **Personalização Contínua:** IA analisa o histórico para sugerir blocos de tempo ideais. [cite: 23]
-* **Feedback Prático:** Relatórios semanais com dicas acionáveis. [cite: 24]
-* **Engajamento Proativo:** Notificações motivacionais e contextuais. [cite: 26]
+* **Personalização Contínua:** IA analisa o histórico para sugerir blocos de tempo ideais. 
+* **Feedback Prático:** Relatórios semanais com dicas acionáveis. 
+* **Engajamento Proativo:** Notificações motivacionais e contextuais. 
 
 ## 2. Principais Funcionalidades
 
 O aplicativo oferece um conjunto de funcionalidades para aprimorar a gestão do tempo e a produtividade:
 
-* **Configuração Personalizada:** Tempos de foco ("pomodoros") e pausas ajustáveis pelo usuário. [cite: 14]
-* **Notificações Inteligentes:** Alertas para início e fim dos períodos de trabalho e pausa. [cite: 14, 21]
-* **Relatórios e Estatísticas:** Acompanhamento da produtividade com gráficos de progresso e tendências semanais. [cite: 14, 22]
-* **Análise com IA (OpenAI):** Interpretação de anotações do usuário ou históricos de sessões via Processamento de Linguagem Natural (PNL) para identificar padrões de procrastinação, sobrecarga ou períodos de alta concentração. [cite: 17]
-* **Recomendações Personalizadas:** Sugestões de pausas, metas realistas e ajuste na duração dos "pomodoros" com base no contexto do usuário. [cite: 18]
-* **Acesso Multiplataforma:** Sincronização em tempo real (inicialmente pensada com MongoDB Atlas[cite: 25], adaptada para Firebase neste projeto).
-* **Interface Intuitiva e Acessível:** Design minimalista e fluido, fácil de usar mesmo para iniciantes na técnica Pomodoro. [cite: 15, 30]
-* **Abordagem Preventiva:** Análise preditiva para identificar riscos de procrastinação e oferecer soluções proativas. [cite: 33]
+* **Configuração Personalizada:** Tempos de foco ("pomodoros") e pausas ajustáveis pelo usuário. 
+* **Notificações Inteligentes:** Alertas para início e fim dos períodos de trabalho e pausa. 
+* **Relatórios e Estatísticas:** Acompanhamento da produtividade com gráficos de progresso e tendências semanais. 
+* **Análise com IA (OpenAI):** Interpretação de anotações do usuário ou históricos de sessões via Processamento de Linguagem Natural (PNL) para identificar padrões de procrastinação, sobrecarga ou períodos de alta concentração. 
+* **Recomendações Personalizadas:** Sugestões de pausas, metas realistas e ajuste na duração dos "pomodoros" com base no contexto do usuário. 
+* **Acesso Multiplataforma:** Sincronização em tempo real (inicialmente pensada com MongoDB Atlas, adaptada para Firebase neste projeto).
+* **Interface Intuitiva e Acessível:** Design minimalista e fluido, fácil de usar mesmo para iniciantes na técnica Pomodoro. 
+* **Abordagem Preventiva:** Análise preditiva para identificar riscos de procrastinação e oferecer soluções proativas. 
 
 ## 3. Metodologia de Desenvolvimento
 
-Para o desenvolvimento desta solução, adotamos uma abordagem ágil, focada na flexibilidade, entrega contínua e melhoria incremental. [cite: 66]
+Para o desenvolvimento desta solução, adotamos uma abordagem ágil, focada na flexibilidade, entrega contínua e melhoria incremental. 
 
 ### Kanban e GitHub Projects
 
@@ -88,15 +88,15 @@ A arquitetura da solução foi definida para garantir escalabilidade, desempenho
         * **Firebase Authentication:** Para gerenciamento de usuários.
         * **Cloud Firestore (ou Realtime Database):** Para armazenamento e sincronização de dados das sessões Pomodoro, configurações do usuário e estatísticas.
         * **Firebase Cloud Functions:** Para lógica de backend, como processamento de dados para relatórios ou integrações com IA.
-        * **Firebase Cloud Messaging (FCM):** Para notificações push. [cite: 99]
+        * **Firebase Cloud Messaging (FCM):** Para notificações push. 
 
 * **Inteligência Artificial (IA):**
-    * **API:** OpenAI API para processamento de linguagem natural e sugestões personalizadas. [cite: 17, 31]
+    * **API:** OpenAI API para processamento de linguagem natural e sugestões personalizadas. 
 
 * **Ferramentas de Desenvolvimento e DevOps:**
     * **Controle de Versão:** Git e GitHub
     * **Gerenciador de Pacotes:** npm ou Yarn
-    * **CI/CD (Integração Contínua/Entrega Contínua):** GitHub Actions para automatizar testes e builds. [cite: 100]
+    * **CI/CD (Integração Contínua/Entrega Contínua):** GitHub Actions para automatizar testes e builds.
 
 ## 5. Equipe do Projeto e Contribuições
 
@@ -132,46 +132,46 @@ Após a instalação, o aplicativo Pomodoro oferece uma experiência intuitiva:
     * Duração das pausas curtas e longas.
     * Número de "pomodoros" antes de uma pausa longa.
     * Sons de notificação.
-5.  **Relatórios:** Verifique a seção de estatísticas para visualizar seu progresso, tempo focado por dia/semana e outras métricas de produtividade. [cite: 14, 22]
-6.  **Notas e IA:** Utilize o campo de anotações para descrever suas tarefas. A IA poderá usar essas informações para fornecer insights. [cite: 17]
+5.  **Relatórios:** Verifique a seção de estatísticas para visualizar seu progresso, tempo focado por dia/semana e outras métricas de produtividade. 
+6.  **Notas e IA:** Utilize o campo de anotações para descrever suas tarefas. A IA poderá usar essas informações para fornecer insights. 
 
 ## 7. Linha do Tempo do Projeto (Ciclo de Vida)
 
-O desenvolvimento do aplicativo Pomodoro seguiu um ciclo de vida incremental[cite: 87], permitindo entregas contínuas e refinamento progressivo. As principais fases foram:
+O desenvolvimento do aplicativo Pomodoro seguiu um ciclo de vida incremental, permitindo entregas contínuas e refinamento progressivo. As principais fases foram:
 
-1.  **Fase de Concepção e Planejamento:** [cite: 90]
-    * Definição dos objetivos do aplicativo e do problema a ser resolvido. [cite: 90]
-    * Análise de mercado e requisitos dos usuários. [cite: 69, 70]
-    * Seleção inicial de tecnologias e arquitetura. [cite: 73]
+1.  **Fase de Concepção e Planejamento:** 
+    * Definição dos objetivos do aplicativo e do problema a ser resolvido. 
+    * Análise de mercado e requisitos dos usuários. 
+    * Seleção inicial de tecnologias e arquitetura. 
     * Definição do escopo do MVP (Minimum Viable Product).
 
-2.  **Fase de Elaboração e Prototipagem:** [cite: 94]
-    * Criação de wireframes e mockups (Figma/Adobe XD). [cite: 83]
-    * Desenvolvimento de protótipos de baixa e alta fidelidade. [cite: 94]
-    * Mapeamento detalhado da arquitetura do sistema com React Native e Firebase. [cite: 95]
-    * Definição dos endpoints da API (Cloud Functions). [cite: 96]
+2.  **Fase de Elaboração e Prototipagem:** 
+    * Criação de wireframes e mockups (Figma/Adobe XD). 
+    * Desenvolvimento de protótipos de baixa e alta fidelidade. 
+    * Mapeamento detalhado da arquitetura do sistema com React Native e Firebase. 
+    * Definição dos endpoints da API (Cloud Functions). 
 
-3.  **Fase de Construção e Implementação:** [cite: 97]
-    * Desenvolvimento do backend no Firebase (Authentication, Firestore, Cloud Functions). [cite: 98]
-    * Implementação do frontend em React Native, focando em interatividade e responsividade. [cite: 99]
+3.  **Fase de Construção e Implementação:** 
+    * Desenvolvimento do backend no Firebase (Authentication, Firestore, Cloud Functions). 
+    * Implementação do frontend em React Native, focando em interatividade e responsividade.
     * Integração com a API da OpenAI para funcionalidades de IA.
-    * Configuração de CI/CD com GitHub Actions. [cite: 100]
+    * Configuração de CI/CD com GitHub Actions. 
 
-4.  **Fase de Testes e Validação:** [cite: 101]
-    * Testes unitários e de integração. [cite: 102, 103]
-    * Testes de usabilidade com usuários reais. [cite: 84, 104]
-    * Testes de estresse e carga no backend. [cite: 105]
-    * Correção de bugs e ajustes. [cite: 106]
+4.  **Fase de Testes e Validação:** 
+    * Testes unitários e de integração. 
+    * Testes de usabilidade com usuários reais. 
+    * Testes de estresse e carga no backend. 
+    * Correção de bugs e ajustes. 
 
-5.  **Fase de Implantação e Monitoramento:** [cite: 107]
-    * Publicação nas lojas de aplicativos (Google Play Store e App Store) - *simulado para este projeto*. [cite: 108]
-    * Configuração de métricas de monitoramento (Firebase Analytics). [cite: 109]
-    * Suporte e correções pós-lançamento. [cite: 110]
+5.  **Fase de Implantação e Monitoramento:** 
+    * Publicação nas lojas de aplicativos (Google Play Store e App Store) - *simulado para este projeto*. 
+    * Configuração de métricas de monitoramento (Firebase Analytics). 
+    * Suporte e correções pós-lançamento. 
 
-6.  **Fase de Manutenção e Evolução Contínua:** [cite: 111]
-    * Coleta de feedbacks dos usuários para melhorias. [cite: 113]
-    * Correção de bugs e otimizações contínuas. [cite: 114]
-    * Planejamento e desenvolvimento de novas funcionalidades. [cite: 115]
+6.  **Fase de Manutenção e Evolução Contínua:** 
+    * Coleta de feedbacks dos usuários para melhorias. 
+    * Correção de bugs e otimizações contínuas. 
+    * Planejamento e desenvolvimento de novas funcionalidades. 
 
 ## 8. Como Contribuir
 
