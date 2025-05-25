@@ -86,9 +86,9 @@ A arquitetura da solução foi definida para garantir escalabilidade, desempenho
     * **Plataforma:** Firebase
     * **Serviços Utilizados:**
         * **Firebase Authentication:** Para gerenciamento de usuários.
-        * **Cloud Firestore (ou Realtime Database):** Para armazenamento e sincronização de dados das sessões Pomodoro, configurações do usuário e estatísticas.
+        * **MongoDB Atlas:** Para armazenamento e sincronização de dados das sessões Pomodoro, configurações do usuário e estatísticas.
         * **Firebase Cloud Functions:** Para lógica de backend, como processamento de dados para relatórios ou integrações com IA.
-        * **Firebase Cloud Messaging (FCM):** Para notificações push. 
+       
 
 * **Inteligência Artificial (IA):**
     * **API:** OpenAI API para processamento de linguagem natural e sugestões personalizadas. 
