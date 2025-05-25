@@ -135,6 +135,14 @@ Após a instalação, o aplicativo Pomodoro oferece uma experiência intuitiva:
 5.  **Relatórios:** Verifique a seção de estatísticas para visualizar seu progresso, tempo focado por dia/semana e outras métricas de produtividade. 
 6.  **Notas e IA:** Utilize o campo de anotações para descrever suas tarefas. A IA poderá usar essas informações para fornecer insights. 
 
+![Imagem do menu principal do aplicativo Pomodor](https://imgur.com/gtXnMnD.png)
+
+![Configuração da duração do Timer Pomodorõ](https://imgur.com/yKlL4yH.gif)
+
+![Sub Menu das Sessões Pomodoro atualiza assim que a sessão é concluída](https://imgur.com/rgjn1S3.gif)
+
+![Insights com IA atualizam conforme novos padrões de sessão são detectados](https://imgur.com/LKeAU5c.gif)
+
 ## 7. Linha do Tempo do Projeto (Ciclo de Vida)
 
 O desenvolvimento do aplicativo Pomodoro seguiu um ciclo de vida incremental, permitindo entregas contínuas e refinamento progressivo. As principais fases foram:
@@ -204,5 +212,3 @@ Ao contribuir, você concorda que suas contribuições serão licenciadas sob a 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
 ---
-
-*Este README foi gerado com base na documentação do Projeto Integrador V e adaptado para um formato de repositório GitHub, incluindo detalhes específicos da metodologia e tecnologias utilizadas pela equipe.*
