@@ -123,7 +123,7 @@ A colaboração e a comunicação constante foram pilares para o desenvolvimento
 
 | Membro da Equipe            | Função Principal                     | Responsabilidades Chave                                                                                                                               |
 | :-------------------------- | :----------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Anderson Kevin Araujo Baltar** | Administrador de Banco de Dados (DBA) | Design, implementação e manutenção da estrutura do banco de dados no Firebase (Firestore/Realtime Database); garantir integridade, segurança e otimização das consultas. |
+| **Anderson Kevin Araujo Baltar** | Administrador de Banco de Dados (DBA) | Design, implementação e manutenção da estrutura do banco de dados no MongoDB Atlas; garantir integridade, segurança e otimização das consultas. |
 | **Antônio Gabriel Sousa Lira** | Assistente de Banco de Dados         | Auxílio na modelagem de dados, criação de scripts para migração, testes de carga; suporte na manutenção e otimização do banco de dados.                 |
 | **Bruno Mingorance Gorga** | Engenheiro DevOps                    | Configuração e gerenciamento do ambiente de desenvolvimento, integração contínua (CI/CD) com GitHub Actions; deployment da aplicação e backend no Firebase. |
 | **Carla Rodrigues de Souza** | Product Owner / Gerente de Projetos  | Liderança da visão do produto, definição e priorização do backlog; gerenciamento do cronograma (Kanban no GitHub Projects); comunicação com a equipe.    |
