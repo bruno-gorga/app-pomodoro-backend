@@ -119,6 +119,18 @@ Este projeto foi realizado por uma equipe dedicada, com cada membro desempenhand
 
 A colaboração e a comunicação constante foram pilares para o desenvolvimento deste projeto, assegurando que os objetivos fossem alcançados com qualidade e dentro do escopo definido.
 
+## Equipe do Projeto e Contribuições - Quadro de Funções e responsabilidades
+
+| Membro da Equipe            | Função Principal                     | Responsabilidades Chave                                                                                                                               |
+| :-------------------------- | :----------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Anderson Kevin Araujo Baltar** | Administrador de Banco de Dados (DBA) | Design, implementação e manutenção da estrutura do banco de dados no Firebase (Firestore/Realtime Database); garantir integridade, segurança e otimização das consultas. |
+| **Antônio Gabriel Sousa Lira** | Assistente de Banco de Dados         | Auxílio na modelagem de dados, criação de scripts para migração, testes de carga; suporte na manutenção e otimização do banco de dados.                 |
+| **Bruno Mingorance Gorga** | Engenheiro DevOps                    | Configuração e gerenciamento do ambiente de desenvolvimento, integração contínua (CI/CD) com GitHub Actions; deployment da aplicação e backend no Firebase. |
+| **Carla Rodrigues de Souza** | Product Owner / Gerente de Projetos  | Liderança da visão do produto, definição e priorização do backlog; gerenciamento do cronograma (Kanban no GitHub Projects); comunicação com a equipe.    |
+| **Leonardo de Alcântara Fróes** | Desenvolvedor Frontend               | Principal responsável pelo desenvolvimento da UI/UX do aplicativo mobile em React Native; implementação das telas, componentes e lógica de interação.     |
+| **Thiago Aleixo da Silva** | Assistente de Backend                | Colaboração no desenvolvimento das Cloud Functions no Firebase; integração com API da OpenAI; criação de endpoints.                                     |
+| **Tiago Carvalho da Silva** | Assistente Frontend                  | Apoio no desenvolvimento de componentes visuais em React Native; implementação de funcionalidades secundárias da interface; testes de usabilidade.        |
+
 
 ## 6. Diretrizes de Uso
 
