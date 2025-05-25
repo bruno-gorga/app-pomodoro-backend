@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #1c1c5b;
+  line-height: 1.6;
+}
+
+/* HERO (texto + formulário) */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 60px;
+  background-color: #ffffff;
+}
+
+.texto {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.texto h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #1c1c5b;
+}
+
+.texto h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1c1c5b;
+}
+
+.texto p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* FORMULÁRIO */
+.formulario {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f3ff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+}
+
+form h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1c1c5b;
+}
+
+form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 12px;
+  background-color: #4f46e5;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #3730a3;
+}
+
+form small {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+}
+
+/* GALERIA */
+.product-gallery {
+  background-color: #f8f9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.product-gallery h2 {
+  font-size: 2rem;
+  color: #1c1c3b;
+  margin-bottom: 40px;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex: 1 1 300px;
+  max-width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #1c1c5b; /* Azul escuro do seu tema */
+  color: #efeae2; /* Cor clara para contraste */
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  margin-top: 8px;
+}
+
+.footer-nav a {
+  color: #efeae2;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5; /* Cor roxa do botão para hover */
+}
+
+
+
+
+
+
+
