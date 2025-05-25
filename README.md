@@ -103,7 +103,7 @@ A arquitetura da solução foi definida para garantir escalabilidade, desempenho
 Este projeto foi realizado por uma equipe dedicada, com cada membro desempenhando um papel crucial para o sucesso da solução:
 
 * **Anderson Kevin Araujo Baltar** - *Administrador de Banco de Dados (DBA)*
-    * Responsável pelo design, implementação e manutenção da estrutura do banco de dados no Firebase (Firestore/Realtime Database), garantindo a integridade, segurança e otimização das consultas de dados.
+    * Responsável pelo design, implementação e manutenção da estrutura do banco de dados no MongoDB Atlas, garantindo a integridade, segurança e otimização das consultas de dados.
 * **Antônio Gabriel Sousa Lira** - *Assistente de Banco de Dados*
     * Auxiliou na modelagem dos dados, na criação de scripts para migração e testes de carga, além de dar suporte na manutenção e otimização do banco de dados.
 * **Bruno Mingorance Gorga** - *Engenheiro DevOps*
