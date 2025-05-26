@@ -76,14 +76,14 @@ Como parte crucial do nosso processo colaborativo, implementamos **revisões de 
 A arquitetura da solução foi definida para garantir escalabilidade, desempenho e uma boa experiência do usuário:
 
 * **Plataforma Mobile (Frontend):**
-    * **Framework:** React Native
-    * **Linguagem:** JavaScript/TypeScript
-    * **Gerenciamento de Estado:** Redux (ou Context API, conforme a complexidade da feature)
-    * **Navegação:** React Navigation
-    * **UI Kits:** (Opcional, especificar se algum foi usado, ex: React Native Elements, NativeBase)
+    * **Framework:** React Native.
+    * **Linguagem:** JavaScript/TypeScript.
+    * **Gerenciamento de Estado:** Redux (ou Context API, conforme a complexidade da feature).
+    * **Navegação:** React Navigation.
+    * **UI Kits:** (Opcional, especificar se algum foi usado, ex: React Native Elements, NativeBase).
 
 * **Backend e Banco de Dados:**
-    * **Plataforma:** Firebase
+    * **Plataforma:** Firebase.
     * **Serviços Utilizados:**
         * **Firebase Authentication:** Para gerenciamento de usuários.
         * **MongoDB Atlas:** Para armazenamento e sincronização de dados das sessões Pomodoro, configurações do usuário e estatísticas.
